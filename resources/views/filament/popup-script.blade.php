@@ -4,9 +4,9 @@
 
             setTimeout(() => {
                 new FilamentNotification()
-                    .title('Made with Love ❤️ For The Flutter 🌹')
+                    .title('Made with Love ❤️ Husband Protection Enabled 💂🏻 ')
                     .success()
-                    .duration(5000)
+                    .duration(7000)
                     .send();
                 sessionStorage.setItem('popupShown', 'true');
             }, 500);
