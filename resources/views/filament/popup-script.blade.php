@@ -4,7 +4,7 @@
         if (sessionStorage.getItem('popupShown')) {
             setTimeout(() => {
                 new FilamentNotification()
-                    .title('Made with Love ❤️ For Best Flutter 🌹')
+                    .title('Made with Love ❤️ For The Flutter 🌹')
                     .success()
                     .duration(5000)
                     .send();
