@@ -24,8 +24,9 @@ class PrescriptionController extends Controller
 
     public function store(Request $request)
     {
+
         $data = $request->validate([
-            'user_id' => ['required', 'exists:users'],
+            'user_id' => ['required', 'exists:users,id'],
             'file' => ['required', 'file','mimes:pdf,doc,docx,txt,image,jpeg,png,jpg']
         ]);
         $data['file'] = $request->file('file')
